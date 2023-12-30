@@ -1,7 +1,7 @@
 import React from 'react'
 import { star } from '../assets/icons'
 
-const ProductCard = ({imgURL, name, price}) => {
+const PopularProductCard = ({imgURL, name, price}) => {
   return (
     <div>
         <div className='flex flex-1 flex-col w-full max-sm:w-full'>
@@ -22,7 +22,7 @@ const ProductCard = ({imgURL, name, price}) => {
           forn-semibold font-palanquin'>
             {name}
           </h3>
-          <p className='text-coral-red font-semibold mt-2 text-xl 
+          <p className='text-coral-red font-semibold mt-2 
           font-montserrat leading-normal'>
             {price}
           </p>
@@ -31,4 +31,4 @@ const ProductCard = ({imgURL, name, price}) => {
   )
 }
 
-export default ProductCard
+export default PopularProductCard
