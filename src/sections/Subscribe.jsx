@@ -8,7 +8,7 @@ const Subscribe = () => {
       justify-between items-center max-lg:flex-col gap-10'
     >
       <h3 className='font-bold text-4xl font-palanquin
-      leading-[68px] lg:max-w-md'>
+      leading-[68px] lg:max-w-md max-sm:text-center'>
         Sign Up for 
         <span className='text-coral-red'> Updates </span>
         & Newsleter
